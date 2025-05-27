@@ -1,21 +1,21 @@
 # Parallel
 
-# How to compile
-## SEK
+#### How to compile
+* SEK
 g++ tspSek.cpp -o tsp
-## OpenMP
+* OpenMP
 g++ -o openmp -fopenmp ./tsp-openmp2.cpp
-## CUDA
+* CUDA
 nvcc -O2 -o tspCuda ./tspmyCuda.cu
 
-# How to run
-## SEK
+#### How to run
+* SEK
 ./tsp 1000 ./dane100.txt
-## OpenMP
+* OpenMP
 ./openmp 1000 ./dane100.txt
-## CUDA
+* CUDA
 ./tspCuda 1000 ./dane1000.txt
 
-## parameters
+#### parameters
 * number of iterations for every instance of problem
 * input file name
