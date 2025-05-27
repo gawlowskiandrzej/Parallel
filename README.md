@@ -17,7 +17,7 @@ nvcc -O2 -o tspCuda ./tspmyCuda.cu
 ./tspCuda 1000 ./dane1000.txt
 
 #### Data generator
-* python dataGenerate.py 1000 <br>
+* python generateData.py 1000 <br>
 parameter is number of verticies
 
 #### parameters
